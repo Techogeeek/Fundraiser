@@ -357,7 +357,27 @@
 
           <div class="col-lg-6">
 
-        
+            <div class="form">
+
+              <h4>Send us a message</h4>
+              <p>We always welcome our visitors and their ideas. So tell us what's on your mind, we would really appreciate it. </p>
+
+              <form action="" method="post">
+                
+                <div class="form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group mt-3">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group mt-3">
+                  <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+                </div><br>
+
+                <div class="text"><button type="submit" value="Send Message" onclick="msgfunction()">Send Message</button></div>
+              
+            </form>
+            
             <script>
                 function msgfunction(){
                     alert("We Received Your Message,\nThanks For Contacting");
